@@ -31,7 +31,7 @@ Copy and paste this into your markdown, and that's it. Simple!
 
 Change the `?username=` value to your Duolingo username.
 ```
-![Ashley's Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=a-shelly123)
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123)
 ```
 <details> 
     <summary>Example </summary>
@@ -42,7 +42,7 @@ Change the `?username=` value to your Duolingo username.
 ### Dark Mode Theme
 You can pass a query parameter `&darkMode=` to enable or disable dark mode.
 ```
-![Ashley's Duolingo Stats](http://localhost:3001/duolingo-badge?username=a-shelly123&darkMode=true)
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123&darkMode=true)
 ```
 <details> 
     <summary>Example </summary>
