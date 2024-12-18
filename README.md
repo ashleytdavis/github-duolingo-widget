@@ -33,21 +33,14 @@ Change the `?username=` value to your Duolingo username.
 ```
 ![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123)
 ```
-<details> 
-    <summary>Example </summary>
-    <img src="duolingo-badge.svg" alt="light mode duo badge" />
-</details>
-
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123)
 
 ### Dark Mode Theme
 You can pass a query parameter `&darkMode=` to enable or disable dark mode.
 ```
 ![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123&darkMode=true)
 ```
-<details> 
-    <summary>Example </summary>
-    <img src="duolingo-badge-darkmode.svg" alt="light mode duo badge" />
-</details>
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123&darkMode=true)
 
 
 ## How to Start the Development Environment
