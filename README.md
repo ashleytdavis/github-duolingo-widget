@@ -1,14 +1,14 @@
 <h1 style="width: 50%; margin: auto; text-align: center;"> Github Duolingo Stats</h1>
 <br />
 <div style="display: flex; justify-content: center; gap: 1rem;">
-<a href="https://github.com/ashleytdavis/github-duolingo-stats/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ashleytdavis/github-duolingo-stats?color=32a83c">
+<a href="https://github.com/ashleytdavis/github-duolingo-widget/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ashleytdavis/github-duolingo-widget?color=32a83c">
 </a>
-<a href="https://github.com/ashleytdavis/github-duolingo-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/ashleytdavis/github-duolingo-stats?color=32a83c">
+<a href="https://github.com/ashleytdavis/github-duolingo-widget/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/ashleytdavis/github-duolingo-widget?color=32a83c">
 </a>
-<a href="https://github.com/ashleytdavis/github-duolingo-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ashleytdavis/github-duolingo-stats?color=32a83c">
+<a href="https://github.com/ashleytdavis/github-duolingo-widget/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ashleytdavis/github-duolingo-widget?color=32a83c">
 </a>
 </div>
 <br />
