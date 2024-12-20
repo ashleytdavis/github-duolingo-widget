@@ -177,3 +177,134 @@ input:checked + .slider:before {
 .copy-container:hover .copy-tooltip {
   opacity: 1;
 }
+
+/* New form element styles */
+input[type="color"] {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 8px;
+  margin: 8px 0 15px;
+  border: 2px solid #c8e6c9;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Adjust layout for new elements */
+.left-column form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-column form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.left-column form button {
+  grid-column: 1 / -1;
+}
+
+.color-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.color-input-group label {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.color-input-group input[type="color"] {
+  margin: 0;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.input-group input[type="number"] {
+  width: 60px;
+  margin: 0;
+}
+
+.gradient-input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.gradient-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.gradient-colors input[type="color"] {
+  width: 40px;
+  height: 40px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: #e8f5e9;
+  border-radius: 8px;
+  cursor: pointer;
+  flex: 1;
+  transition: all 0.2s;
+}
+
+.tab.active {
+  background: #46a302;
+  color: white;
+}
+
+.tab:hover {
+  background: #388e3c;
+  color: white;
+}
+
+.tab-content {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Update existing form styles */
+.left-column form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.left-column form button[type="submit"] {
+  margin-top: 20px;
+}
