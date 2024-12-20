@@ -26,22 +26,58 @@ Table of Contents:
 ## About
 Heavily inspired by projects such as <a href="https://github.com/anuraghazra/github-readme-stats" style="color:rgb(65, 194, 76);">github readme stats</a>, the github duolingo widget allows github users to display some of their basic duolingo stats on their github profile READMEs.
 
+This project also comes with a live site that users can tailor their widgets to their liking using an aesthetic UI. 
+
 ## Usage
 Copy and paste this into your markdown, and that's it. Simple!
 
 Change the `?username=` value to your Duolingo username.
 ```
-![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123)
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123)
 ```
-![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123)
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123)
 
 ### Dark Mode Theme
 You can pass a query parameter `&darkMode=` to enable or disable dark mode.
 ```
-![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123&darkMode=true)
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&darkMode=true)
 ```
-![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/duolingo-badge?username=a-shelly123&darkMode=true)
+![Ashley's Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&darkMode=true)
 
+### Background Color
+You can pass a query parameter `&bgColor=` to set a solid background color.
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&bgColor=c02a2a)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&bgColor=c02a2a)
+
+### Gradient Background
+You can pass query parameters `&gradientStart=` and `&gradientEnd=` to create a gradient background.
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&gradientStart=ff0000&gradientEnd=00ff00)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&gradientStart=ff0000&gradientEnd=00ff00)
+
+### Altering Text Colors
+You can pass the query parameters `&tectColor=`, `&headerColor=`, and `&valuesColor=` to customize the different text elements.
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&textColor=2b977c&headerColor=ff0000&valuesColor=0000ff)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&textColor=2b977c&headerColor=ff0000&valuesColor=0000ff)
+
+### Custom Dimensions
+You can pass the query parameters `&width=` and `&height=` to adjust the size of the widget.
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&width=350&height=200)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&width=350&height=200)
+
+### Combining Options
+You can combine any of these options to tailor the widget to your liking =)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&darkMode=true&gradientStart=000033&gradientEnd=000066&textColor=ffffff&width=400)
+```
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&darkMode=true&gradientStart=000033&gradientEnd=000066&textColor=ffffff&width=400)
 
 ## How to Start the Development Environment
 I've done my best to make it really easy to run this project locally. The client runs on port 3000 and the server on port 3001.
