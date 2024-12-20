@@ -56,7 +56,7 @@ You can pass query parameters `&gradientStart=` and `&gradientEnd=` to create a 
 ```
 ![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&gradientStart=ff0000&gradientEnd=00ff00)
 ```
-![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&gradientStart=ff0000&gradientEnd=00ff00)
+![Duolingo Stats](https://github-duolingo-widget.onrender.com/api/duolingo-badge?username=a-shelly123&gradientStart=1364e8&gradientEnd=8239e3)
 
 ### Altering Text Colors
 You can pass the query parameters `&tectColor=`, `&headerColor=`, and `&valuesColor=` to customize the different text elements.
