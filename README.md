@@ -10,8 +10,8 @@
 <a href="https://github.com/ashleytdavis/github-duolingo-widget/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ashleytdavis/github-duolingo-widget?color=32a83c">
 </a>
+<img alt="mit liscence" src="https://img.shields.io/badge/license-MIT-green.svg">
 </div>
-<br />
 
 Table of Contents:
 - <a href="#about" style="color:rgb(65, 194, 76);">About</a>
